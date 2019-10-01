@@ -22,9 +22,9 @@
     </thead>
     <tbody>
       <tr>
-        <td>{{entriesScv.sortedEntries[0].date}}</td>
-        <td>{{entriesScv.sortedEntries[0].weight}}</td>
-        <td >{{entriesScv.sortedEntries[0].bodyfat}}</td>
+        <td>{{entriesScv.sortedEntries[0].date | date}}</td>
+        <td>{{entriesScv.sortedEntries[0].weight}}lbs</td>
+        <td >{{entriesScv.sortedEntries[0].bodyfat | percent}}</td>
       </tr>
     </tbody>
   </table>
